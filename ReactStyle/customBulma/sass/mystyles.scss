@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+
+// @import "../node_modules/bulma/sass/utilities/_all.sass";
+// @import "../node_modules/bulma/sass/base/_all.sass";
+// @import "../node_modules/bulma/sass/elements/_all.sass";
+// @import "../node_modules/bulma/sass/components/_all.sass";
+// @import "../node_modules/bulma/sass/layout/_all.sass";
+
+
+// Import a Google Font
+
+// Set your brand colors
+// $button-color
+
+// Update Bulma's global variables
+$primary: #25C3FF;
+$link: #02C0EE;
+
+// Update some of Bulma's component variables
+$body-background-color: #FFF;
+//$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+$box-shadow: 0px 0px 0px grey;
+$card-shadow: 0 0px 5px rgba(#000, 0.1);
+//$family-primary: 'Open Sans', sans-serif;
+@import "../node_modules/bulma/bulma.sass";
